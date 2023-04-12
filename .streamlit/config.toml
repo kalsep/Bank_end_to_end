@@ -1,0 +1,17 @@
+[theme]
+base="light"
+primaryColor="#F63366"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"[theme]
+
+
+[server]
+runOnSave = true
+headless = true
+baseUrl = "/"
+enabled = true
+enableCORS = false
+port = 8501
+websocketCompressionLevel = 0
+wildMode = true
