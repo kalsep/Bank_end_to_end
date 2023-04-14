@@ -1,4 +1,4 @@
-We need to design an dimplement a class that will be used to represent bank accounts.
+We need to design an implement a class that will be used to represent bank accounts. and Deply This Application using StreamLit
 
 We want the following functionality and characteristics:
 - accounts are uniquely identified by an account number(assume it will just be passed in the initializer)
