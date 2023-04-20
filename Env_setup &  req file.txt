@@ -1,0 +1,41 @@
+##Using Default Python In the system
+#Create a virtual environment using the venv module, which comes pre-installed with Python 3.3 and higher:
+
+python3 -m venv env
+
+#Replace env with the name you want to give your environment.
+
+#Activate the environment by running the following command:
+source env/bin/activate
+
+#Install the packages you need in your environment using commands.
+pip install
+
+##When you're finished working with the environment, deactivate it by running:
+deactivate
+
+
+## using ANACONDA
+#Open a terminal or command prompt and create a new environment using the following command:
+
+conda create --name myenv
+
+#Replace myenv with the name you want to give your environment.
+
+#Activate the environment by running the following command:
+conda activate myenv
+
+#Install the packages you need in your environment using conda install or pip install commands.
+coda install or pip install
+
+#When you're finished working with the environment, deactivate it by running:
+conda deactivate
+
+
+
+### Creating Requirmets.txt file for the project
+# this will crate txt file for the project required.
+
+Once you have installed all the packages you need, you can generate a requirements.txt file using the following command:
+
+pip freeze > requirements.txt
