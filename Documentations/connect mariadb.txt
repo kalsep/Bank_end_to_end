@@ -1,0 +1,39 @@
+#Install the mysql-connector-python library by typing the following command in your terminal:
+
+pip install mysql-connector-python
+Open your Python code editor and create a new Python file.
+
+#Import the mysql.connector module in your Python code:
+
+import mysql.connector
+
+#Create a new connection to your MariaDB database using the following code:
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="username",
+  password="password",
+  database="dbname"
+)
+#Replace localhost, username, password, and dbname with the values you want to use for your database connection.
+
+#You can then create a new cursor object to execute SQL queries on the database:
+mycursor = mydb.cursor()
+#You can now execute SQL queries on the database using the cursor object. For example, to fetch all the rows from a table, you can use the following code:
+
+mycursor.execute("SELECT * FROM tablename")
+myresult = mycursor.fetchall()
+for row in myresult:
+  print(row)
+#Replace tablename with the name of the table you want to fetch rows from.
+
+#once you are done with your database operations, you can close the connection using the following code:
+
+mydb.close()
+That's it! You have now connected to your MariaDB database from Python and executed SQL queries on it.
+
+
+
+
+
+
+Regenerate response

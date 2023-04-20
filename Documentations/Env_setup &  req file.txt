@@ -1,12 +1,11 @@
 ##Using Default Python In the system
 #Create a virtual environment using the venv module, which comes pre-installed with Python 3.3 and higher:
 
-python3 -m venv env
+python3 -m venv bank_end_to_end
 
 #Replace env with the name you want to give your environment.
-
 #Activate the environment by running the following command:
-source env/bin/activate
+source bank_end_to_end/bin/activate
 
 #Install the packages you need in your environment using commands.
 pip install
@@ -39,3 +38,5 @@ conda deactivate
 Once you have installed all the packages you need, you can generate a requirements.txt file using the following command:
 
 pip freeze > requirements.txt
+
+conda freeze > requirements.txt
