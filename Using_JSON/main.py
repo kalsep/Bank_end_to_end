@@ -2,9 +2,9 @@ import json
 import streamlit as st
 
 #import class modules
-from account import *
+from Using_JSON.account import *
 
-st.set_page_config(page_title="My Streamlit App", page_icon=":bank:")
+st.set_page_config(page_title="My Streamlit App", page_icon=":bank:",layout='wide')
 
 # load the account dictionary from file
 try:

@@ -1,4 +1,4 @@
-from main import *
+from Using_JSON.main import *
 class BankAccount:
     # get the last account number from the accounts dictionary
     last_account_number = max(accounts.keys(), default=202302)
